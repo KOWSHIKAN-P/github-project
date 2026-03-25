@@ -1,10 +1,7 @@
-# Simple Calculator Program
 
-# Taking input from user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# Choosing operation
 print("Choose operation:")
 print("1. Add")
 print("2. Subtract")
@@ -13,7 +10,7 @@ print("4. Divide")
 
 choice = input("Enter choice (1/2/3/4): ")
 
-# Performing calculation
+
 if choice == '1':
     print("Result:", num1 + num2)
 
